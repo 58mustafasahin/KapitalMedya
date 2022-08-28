@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KapitalMedya.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:KapitalMedya.WebAPI.Controllers.BookingsController.GetById(KapitalMedya.Application.Features.Bookings.Queries.GetByIdBooking.GetByIdBookingQuery)">
+            <summary>
+                Id'ye göre rezervasyon getirir.
+            </summary>
+        </member>
+        <member name="M:KapitalMedya.WebAPI.Controllers.BookingsController.GetFilter(KapitalMedya.Application.Features.Bookings.Queries.GetFilterBooking.GetFilterBookingQuery)">
+            <summary>
+                Filtreye göre rezervasyonları getirir.
+            </summary>
+        </member>
+        <member name="M:KapitalMedya.WebAPI.Controllers.BookingsController.GetAll(KapitalMedya.Application.Features.Bookings.Queries.GetAllBooking.GetAllBookingQuery)">
+            <summary>
+                Tüm rezervasyonları getirir.
+            </summary>
+            <remarks>
+                Sayfalama ile istenilen sayfa ve istelen veri sayısı kadar rezervasyon getirir.
+                Eğer bu veriler gönderilmezse başlangıç olarak 1.sayfadaki ilk 10 veri getirilir.
+            </remarks>
+        </member>
+        <member name="M:KapitalMedya.WebAPI.Controllers.BookingsController.Post(KapitalMedya.Application.Features.Bookings.Commands.CreateBooking.CreateBookingCommand)">
+            <summary>
+                Rezervasyon ekler.
+            </summary>
+        </member>
+        <member name="M:KapitalMedya.WebAPI.Controllers.BookingsController.Put(KapitalMedya.Application.Features.Bookings.Commands.UpdateBooking.UpdateBookingCommand)">
+            <summary>
+                Rezervasyon günceller.
+            </summary>
+        </member>
+        <member name="M:KapitalMedya.WebAPI.Controllers.BookingsController.Delete(KapitalMedya.Application.Features.Bookings.Commands.RemoveBooking.RemoveBookingCommand)">
+            <summary>
+                Rezervasyon siler.
+            </summary>
+        </member>
+    </members>
+</doc>

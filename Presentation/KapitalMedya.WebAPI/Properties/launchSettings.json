@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "KapitalMedya.WebAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5238"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "PostgreSQL": "User ID=lbwgbkvawimgjyibxmsmitxr@psql-mock-database-cloud;Password=wtlkfsntfuqzomfpgyxlvwhm;Host=psql-mock-database-cloud.postgres.database.azure.com;Port=5432;Database=booking1661490188599giytmbigazjcbcyl;"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:52283",
+      "sslPort": 0
+    }
+  }
+}
